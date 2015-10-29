@@ -17,6 +17,7 @@ public class Money {
         }
     }
 
+    //metodo sumar
     public Money sumar(Money otraMoneda) {
         return new Money(this.getMonto() + otraMoneda.getMonto(), this.getTipoMoneda());
     }
